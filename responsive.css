@@ -1,0 +1,59 @@
+@media(max-width:390px){
+    *{
+        box-sizing: border-box;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    body{
+        min-width: 375px;
+        clear: left;
+        flex: 1;
+    }
+    html{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        
+    }
+    .header-top{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+    .header-top img{
+       height: 80px;
+       width: 200px;
+    }
+    .anime{
+        width: 100%;
+       
+    }
+    .nav{
+        float: inline-start;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav a{
+        flex: auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .alert-primary{
+        width: 90%;
+        font-size: 20px;
+    }
+    .btn-primary{
+        width: 50%;
+    }
+}
