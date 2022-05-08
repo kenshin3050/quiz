@@ -20,7 +20,7 @@ const quiz=[
         correct: 'はやしくん'
     },
     {
-        question: 'この中で中３のときにポロリしたのは誰？',
+        question: 'この中でサウスポーは誰？',
         answers: [
             '温泉労働者くん',
     '角刈りくん',
