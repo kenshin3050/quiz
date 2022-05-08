@@ -306,3 +306,11 @@ background-color: rgb(165, 24, 24);
 .btn-list{
 text-align: center;
 }
+.faces{
+    display: flex;
+    flex-wrap: wrap;
+}
+.face{
+    flex: auto;
+    width: 50%;
+}
